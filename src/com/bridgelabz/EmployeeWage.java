@@ -1,8 +1,6 @@
+// UC1 Employee Attendance
+
 package com.bridgelabz;
-
-import java.util.Random;
-import java.util.stream.DoubleStream;
-
 public class EmployeeWage
 {
     private static void employeePresentAbsent()
