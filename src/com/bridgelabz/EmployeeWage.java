@@ -1,23 +1,19 @@
-// UC1 Employee Attendance
+// UC2 Employee Day Wage
 
 package com.bridgelabz;
 public class EmployeeWage
 {
-    private static void employeePresentAbsent()
+    private static void employeeDayWage()
     {
         int EMPLOYEE_PRESENT = 1; // Variable initialization
-        /*
-        double random =  Math.random(); // Random number generating 0 to 1
-        double random1 = random * 10; // 1 to 10 number random number generating
-        double floor = Math.floor(random1); // Floor function will generate around values
-        int floor1 = (int) (floor); // Type Casting because of single digit value
-        int var = floor1 % 2; // Mod 2 reminder will produce 0 or 1
-        */
-        int var = (int) ((Math.floor(Math.random()* 10)) % 2);
-
-        if(var == EMPLOYEE_PRESENT)
+        int checkEmployee = (int) ((Math.floor(Math.random()* 10)) % 2);
+        int empWagePerHour =20;
+        int dayHours = 8;
+        int dayWage = empWagePerHour * dayHours;
+        if(checkEmployee == EMPLOYEE_PRESENT)
         {
             System.out.println("Employee is Present");
+            System.out.println("Employee Daily Wage : " +dayWage);
         }
         else
         {
@@ -27,6 +23,6 @@ public class EmployeeWage
     }
     public static void main(String[] args)
     {
-        employeePresentAbsent();
+        employeeDayWage();
     }
 }
