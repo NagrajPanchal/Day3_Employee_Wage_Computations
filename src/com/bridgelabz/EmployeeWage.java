@@ -1,4 +1,4 @@
-// UC3 Employee Full time & Part Time
+// UC4 Employee Wage by Using Switch Case
 
 package com.bridgelabz;
 public class EmployeeWage
