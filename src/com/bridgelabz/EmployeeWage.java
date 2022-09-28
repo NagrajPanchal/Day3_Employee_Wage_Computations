@@ -25,7 +25,11 @@ public class EmployeeWage // Class
         }
 
     }
+<<<<<<< HEAD
     public static void main(String[] args) // Main
+=======
+    public static void main(String[] args) // Main 
+>>>>>>> 552df257e3491c7dc3eb61ff5f74471d7821bb6c
     {
         employeePresentAbsent(); // call method
     }
