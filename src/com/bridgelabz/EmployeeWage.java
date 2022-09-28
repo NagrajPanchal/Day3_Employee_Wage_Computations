@@ -1,9 +1,9 @@
 // UC1 Employee Attendance
 
-package com.bridgelabz;
-public class EmployeeWage
+package com.bridgelabz;  //Package
+public class EmployeeWage // Class
 {
-    private static void employeePresentAbsent()
+    private static void employeePresentAbsent() //Method
     {
         int EMPLOYEE_PRESENT = 1; // Variable initialization
         /*
@@ -15,7 +15,7 @@ public class EmployeeWage
         */
         int var = (int) ((Math.floor(Math.random()* 10)) % 2);
 
-        if(var == EMPLOYEE_PRESENT)
+        if(var == EMPLOYEE_PRESENT) // if Condition
         {
             System.out.println("Employee is Present");
         }
@@ -25,8 +25,8 @@ public class EmployeeWage
         }
 
     }
-    public static void main(String[] args)
+    public static void main(String[] args) // Main 
     {
-        employeePresentAbsent();
+        employeePresentAbsent(); // call method
     }
 }
