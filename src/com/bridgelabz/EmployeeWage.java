@@ -1,4 +1,4 @@
-// UC1 Employee Attendance
+// UC1 Employee Attendance Present or Absent
 
 package com.bridgelabz;  //Package
 public class EmployeeWage // Class
