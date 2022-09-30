@@ -1,4 +1,4 @@
-// UC6 Employee Calculate Total Working Hours and day wages
+// UC6 Employee Calculate Total Working Hours and day wages a
 
 package com.bridgelabz;
 public class EmployeeWage
