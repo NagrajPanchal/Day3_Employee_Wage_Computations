@@ -1,19 +1,19 @@
-// UC6 Employee Calculate Total Working Hours and day wages a
+// UC7 Refactor the Code to write a Class Method to Compute Employee Wage
 
 package com.bridgelabz;
 public class EmployeeWage
 {
-    private static void employeeCalculateHours()
+    final int EMPLOYEE_FULL_TIME = 2; // Variable initialization
+    final int EMPLOYEE_PART_TIME = 1;
+    final int EMP_WAGE_PER_HOUR =20;
+    final int FULL_TIME_HOUR = 8;
+    final int PART_TIME_HOUR = 4;
+    int day = 0;
+    int monthWages = 0;
+    int dayWage = 0;
+    int totalHours = 0;
+    private void employeeCalculateHours()
     {
-        final int EMPLOYEE_FULL_TIME = 2; // Variable initialization
-        final int EMPLOYEE_PART_TIME = 1;
-        final int EMP_WAGE_PER_HOUR =20;
-        final int FULL_TIME_HOUR = 8;
-        final int PART_TIME_HOUR = 4;
-        int day = 0;
-        int monthWages = 0;
-        int dayWage = 0;
-        int totalHours = 0;
         if (totalHours < 100 && day < 20) {
             for (day = 0; day <= 20; day++) {
                 int checkEmployee = (int) ((Math.floor(Math.random() * 10)) % 3);
@@ -43,6 +43,7 @@ public class EmployeeWage
     }
     public static void main(String[] args) // Main
     {
-        employeeCalculateHours();
+        EmployeeWage EmpWageObject = new EmployeeWage(); // Object Created
+        EmpWageObject.employeeCalculateHours(); // Call a method by using Object
     }
 }
