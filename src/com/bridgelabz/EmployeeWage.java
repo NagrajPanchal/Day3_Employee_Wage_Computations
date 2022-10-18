@@ -41,7 +41,7 @@ public class EmployeeWage
             System.out.println("Employee per Month Wages : " + monthWages + " & Total Hours " + totalHours);
         }
     }
-    public static void main(String[] args)
+    public static void main(String[] args) // Main
     {
         employeeCalculateHours();
     }

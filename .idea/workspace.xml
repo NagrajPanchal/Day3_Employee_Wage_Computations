@@ -5,44 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6722bd9-d864-4ebe-abce-f874d05f8948" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Array_Practice_Problems3/Array_Practice_Problems3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Array_Practice_Problems3/src/com/array/Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Array_Practice_Problems3/src/com/array/Elements_For_Each.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Array_Practice_Problems3/src/com/array/Elements_for.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/Employee_Wage_Computation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/src/com/employee/UC1_Employee_Present_Absent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/src/com/employee/UC2_Daily_Emp_wage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/src/com/employee/UC3_Emp_Full_Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/src/com/employee/UC4_Switch_Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/src/com/employee/UC5_Emp_Month_Wage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Employee_Wage_Computation/src/com/employee/UC6_Emp_Total_Working_Hours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Logical_Programs/Logical_Programs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Logical_Programs/src/Fibonacci_Series_Nth_Tearm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Logical_Programs/src/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Logical_Programs/src/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/Practice_Problems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems/src/String_Comparasion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/Practice_Problems2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Calendar_Month_Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Number_Display_Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Number_Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/OP_1_Arithmetic_Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Quadratic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Reverse_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Reverse_While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Single_Digit_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/SpringSeason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Sum_N_Natural_Num_While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Sum_N_Natural_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Problems2/src/Vowel_Consonant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Programs/Practice_Programs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice_Programs/src/Num_Positive_Negative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/EmployeeWage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Nagraj Panchal/Desktop/bridgeLabz/batch205/Practice"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nagraj Panchal/Desktop/bridgeLabz/batch205/Practice&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EmployeeWage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.EmployeeWage" />
