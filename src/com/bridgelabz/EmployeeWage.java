@@ -1,49 +1,49 @@
-// UC7 Refactor the Code to write a Class Method to Compute Employee Wage
+// UC-8_Multiple_Companies Employee Wage
 
 package com.bridgelabz;
 public class EmployeeWage
 {
     final int EMPLOYEE_FULL_TIME = 2; // Variable initialization
     final int EMPLOYEE_PART_TIME = 1;
-    final int EMP_WAGE_PER_HOUR =20;
     final int FULL_TIME_HOUR = 8;
     final int PART_TIME_HOUR = 4;
-    int day = 0;
-    int monthWages = 0;
-    int dayWage = 0;
-    int totalHours = 0;
-    private void employeeCalculateHours()
+    int totalWage = 0;
+    int workingHrs = 0;
+    int workingDays = 0;
+    int dailyWage = 0;
+
+    private void calculateEmployeeSalary(int wagePerHour, int numberOfWorkingDays, int workHrsPerMonth, String company)
     {
-        if (totalHours < 100 && day < 20) {
-            for (day = 0; day <= 20; day++) {
-                int checkEmployee = (int) ((Math.floor(Math.random() * 10)) % 3);
-                switch (checkEmployee) {
-                    case EMPLOYEE_FULL_TIME:
-                        dayWage = EMP_WAGE_PER_HOUR * FULL_TIME_HOUR;
-                        totalHours = totalHours + FULL_TIME_HOUR;
-                        System.out.println("Employee day " + day + " is Full Present & Daily Wage : " + dayWage + " & Hours " + totalHours);
-                        break;
-                    case EMPLOYEE_PART_TIME:
-                        dayWage = EMP_WAGE_PER_HOUR * PART_TIME_HOUR;
-                        totalHours = totalHours + PART_TIME_HOUR;
-                        System.out.println("Employee day " + day + " is Part Time Present & Daily Wage : " + dayWage + " & Hours " + totalHours);
-                        break;
-                    default:
-                        int isAbsent = 0;
-                        System.out.println("Employee day " + day + " is Absent & Daily Wage : " + isAbsent);
-                }
-                monthWages = monthWages + dayWage;
-            }
-            System.out.println("Employee per Month Wages : " + monthWages + " & Total Hours " + totalHours);
-        }
-        else
+        while (workingHrs < workHrsPerMonth && workingDays < numberOfWorkingDays)
         {
-            System.out.println("Employee per Month Wages : " + monthWages + " & Total Hours " + totalHours);
+            double empCheck = Math.floor(Math.random() * 10) % 3;
+            switch ((int) empCheck)
+            {
+                case EMPLOYEE_FULL_TIME:
+                {
+                    dailyWage = FULL_TIME_HOUR * wagePerHour;
+                    workingHrs = workingHrs + FULL_TIME_HOUR;
+                    break;
+                }
+                case EMPLOYEE_PART_TIME:
+                {
+                    dailyWage = PART_TIME_HOUR * wagePerHour;
+                    workingHrs = workingHrs + PART_TIME_HOUR;
+                    break;
+                }
+                default:
+                    dailyWage = 0;
+            }
+            workingDays++;
+            totalWage = totalWage + dailyWage;
         }
+        System.out.println("Total salary for Company " + company + " : " + totalWage);
     }
+
     public static void main(String[] args) // Main
     {
         EmployeeWage EmpWageObject = new EmployeeWage(); // Object Created
-        EmpWageObject.employeeCalculateHours(); // Call a method by using Object
+        EmpWageObject.calculateEmployeeSalary(20, 20, 100, "Airtel");
+        EmpWageObject.calculateEmployeeSalary(30, 25, 120, "Jio");
     }
 }
