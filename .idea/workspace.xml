@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6722bd9-d864-4ebe-abce-f874d05f8948" name="Changes" comment="Refactor : Class Method to compute Employee Wage">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/EmployeeWage.java" afterDir="false" />
     </list>
@@ -38,13 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Nagraj Panchal/Desktop/bridgeLabz/batch205/Day3_Employee_Wage_Computations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nagraj Panchal/Desktop/bridgeLabz/batch205/Day3_Employee_Wage_Computations&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EmployeeWage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.EmployeeWage" />
